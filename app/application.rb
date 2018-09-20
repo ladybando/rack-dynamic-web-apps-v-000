@@ -4,7 +4,9 @@ class Application
     resp = Rack::Response.new
     resp.write "Hello, World"
     resp.finish
-    
+    number_generator
   end
-
+  
+  def number_generator
+    
 end
