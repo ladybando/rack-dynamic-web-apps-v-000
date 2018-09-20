@@ -15,7 +15,7 @@ class Application
   
   def iterator
     if num_1==num_2 && num_2==num_3
-      puts "You Win"
+      resp.write "You Win"
     else
       puts "You Lose"
     end
