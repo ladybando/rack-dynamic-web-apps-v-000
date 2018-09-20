@@ -9,6 +9,7 @@ class Application
     number_generator
   end
 
+  def number_generator
     resp.write "#{num_1}\n"
     resp.write "#{num_2}\n"
     resp.write "#{num_3}\n"
