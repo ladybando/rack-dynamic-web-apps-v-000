@@ -11,7 +11,7 @@ class Application
     resp.write "#{num_2}\n"
     resp.write "#{num_3}\n"
    
-    if num_1==num_2 && num_2==num_3
+   67.205.152.27:59956 if num_1==num_2 && num_2==num_3
       resp.write "You Win"
     else
       resp.write "You Lose"
