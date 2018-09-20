@@ -12,5 +12,8 @@ class Application
     num_2 = Kernel.rand(1..20)
     num_3 = Kernel.rand(1..20)
   end
+  
+  def iterator
+  end
     
 end
