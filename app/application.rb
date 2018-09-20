@@ -11,6 +11,7 @@ class Application
 
   def number_generator
     resp = Rack::Response.new
+    
     resp.write "#{num_1}\n"
     resp.write "#{num_2}\n"
     resp.write "#{num_3}\n"
