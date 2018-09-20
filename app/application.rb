@@ -17,7 +17,7 @@ class Application
     if num_1==num_2 && num_2==num_3
       resp.write "You Win"
     else
-      puts "You Lose"
+      resp.write "You Lose"
     end
   end
     
