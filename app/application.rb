@@ -19,6 +19,6 @@ class Application
     else
       puts "You Lose"
     end
-      end
+  end
     
 end
